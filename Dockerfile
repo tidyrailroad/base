@@ -7,6 +7,6 @@ RUN \
     apk add sudo && \
     adduser -D user && \
     true
-ENTRYPOINT ["/usr/bin"]
+ENTRYPOINT ["/usr/bin/sh"]
 CMD []
 
