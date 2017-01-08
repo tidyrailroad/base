@@ -7,4 +7,6 @@ RUN \
     apk add sudo && \
     adduser -D user && \
     true
+VOLUME ["/etc/sudoers.d"]
+VOLUME ["/usr/local/sbin"]
 
