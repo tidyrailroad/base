@@ -6,4 +6,5 @@ RUN \
     apk add docker && \
     apk add sudo && \
     adduser -D user && \
+    mkdir /usr/local/sbin && \
     true
